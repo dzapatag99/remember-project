@@ -1,0 +1,212 @@
+{
+    "movies":[
+        {
+            "id": 1,
+            "movieName": "The Avengers",
+            "description": "Pelicula de Marvel que trata de unos heroes",
+            "imgStars": "img/star4.5.png",
+            "imgMovie": "img/avengers.jpg"
+        },
+        {
+            "id": 2,
+            "movieName": "Jurassic Park",
+            "description": "There was a four-way bidding war for Michael Crichton's novel: Warner Bros. wanted it for Tim Burton, Fox liked it for Joe Dante, Columbia chased it for Richard Donner, but Universal won for Spielberg. See the box office totals, famous quotes and more.",
+            "imgStars": "img/star4.5.png",
+            "imgMovie": "img/jurassic_park.jpg"
+        },
+        {
+            "id": 3,
+            "movieName": "The Lord of the Rings",
+            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+            "imgStars": "img/star4.5.png",
+            "imgMovie": "img/lord_of_the_rings.jpg"
+        },
+        {
+            "id": 4,
+            "movieName": "Harry Potter",
+            "description": "Pelicula de Marvel que trata de unos heroes",
+            "imgStars": "img/star4.5.png",
+            "imgMovie": "img/harry_potter.jpg"
+        }
+    ],
+    "series":[
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        }
+    ],
+    "songs":[
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        }
+    ],
+    "videogames": [
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        }
+    ],
+    "restaurants":[
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        }
+    ],
+    "hotels":[
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        }
+    ],
+    "travels": [
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        },
+        {
+            "id": 1,
+            "serieName": "Game of Thrones",
+            "description": "Game of Thrones is roughly based on the storylines of the A Song of Ice and Fire book series by George R. R. Martin, set in the fictional Seven Kingdoms of Westeros and the continent of Essos.",
+            "img/Stars": "img/star4.png",
+            "imgSerie": ""
+        }
+    ]
+}
