@@ -2,31 +2,66 @@
     "restaurants":[
         {
             "id": 1,
-            "movieName": "The Avengers",
-            "description": "Pelicula de Marvel que trata de unos heroes",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/avengers.jpg"
+            "restaurantName": "Ola del mar",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.png",
+            "imgRestaurant": "img/ola-del-mar.jpg"
         },
         {
             "id": 2,
-            "movieName": "Jurassic Park",
-            "description": "There was a four-way bidding war for Michael Crichton's novel: Warner Bros. wanted it for Tim Burton, Fox liked it for Joe Dante, Columbia chased it for Richard Donner, but Universal won for Spielberg. See the box office totals, famous quotes and more.",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/jurassic_park.jpg"
+            "restaurantName": "Caballito de Mar",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-5.png",
+            "imgRestaurant": "img/caballito-de-mar.jpg"
         },
         {
             "id": 3,
-            "movieName": "The Lord of the Rings",
-            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/lord_of_the_rings.jpg"
+            "restaurantName": "Pesquero",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "imgRestaurant": "img/pesquero.png"
         },
         {
             "id": 4,
-            "movieName": "Harry Potter",
-            "description": "Pelicula de Marvel que trata de unos heroes",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/harry_potter.jpg"
+            "restaurantName": "L´arte della pasta",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-5.png",
+            "imgRestaurant": "img/arte-della-pasta.jpg"
+        },
+        {
+            "id": 5,
+            "restaurantName": "Ola del mar",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.png",
+            "imgRestaurant": "img/ola-del-mar.jpg"
+        },
+        {
+            "id": 6,
+            "restaurantName": "Ola del mar",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.png",
+            "imgRestaurant": "img/ola-del-mar.jpg"
+        },
+        {
+            "id": 3,
+            "restaurantName": "Pesquero",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "imgRestaurant": "img/pesquero.png"
+        },
+        {
+            "id": 3,
+            "restaurantName": "Pesquero",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "imgRestaurant": "img/pesquero.png"
+        },
+        {
+            "id": 3,
+            "restaurantName": "Pesquero",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "imgRestaurant": "img/pesquero.png"
         }
     ]
 }

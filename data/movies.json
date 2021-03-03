@@ -3,30 +3,74 @@
         {
             "id": 1,
             "movieName": "The Avengers",
-            "description": "Pelicula de Marvel que trata de unos heroes",
-            "imgStars": "img/star4.5.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-16.png",
             "imgMovie": "img/avengers.jpg"
         },
         {
             "id": 2,
             "movieName": "Jurassic Park",
-            "description": "There was a four-way bidding war for Michael Crichton's novel: Warner Bros. wanted it for Tim Burton, Fox liked it for Joe Dante, Columbia chased it for Richard Donner, but Universal won for Spielberg. See the box office totals, famous quotes and more.",
-            "imgStars": "img/star4.5.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-16.png",
             "imgMovie": "img/jurassic_park.jpg"
         },
         {
             "id": 3,
             "movieName": "The Lord of the Rings",
-            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/lord_of_the_rings.jpg"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-3.png",
+            "imgMovie": "img/lord_or_the_rings.jpg"
         },
         {
             "id": 4,
             "movieName": "Harry Potter",
-            "description": "Pelicula de Marvel que trata de unos heroes",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/harry_potter.jpg"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-3.png",
+            "imgMovie": "img/harry-potter.jpg"
+        },
+        {
+            "id": 5,
+            "movieName": "The Lord of the Rings",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-3.png",
+            "imgMovie": "img/lord_or_the_rings.jpg"
+        },
+        {
+            "id": 6,
+            "movieName": "The Lord of the Rings",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-3.png",
+            "imgMovie": "img/lord_or_the_rings.jpg"
+        },
+        {
+            "id": 7,
+            "movieName": "The Lord of the Rings",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-3.png",
+            "imgMovie": "img/lord_or_the_rings.jpg"
+        },
+        {
+            "id": 8,
+            "movieName": "The Lord of the Rings",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-18.png",
+            "imgMovie": "img/lord_or_the_rings.jpg"
+        },
+        {
+            "id": 9,
+            "movieName": "The Lord of the Rings",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "imgStars": "img/star-4.5.png",
+            "pegi": "img/pegi-18.png",
+            "imgMovie": "img/lord_or_the_rings.jpg"
         }
     ]
 }

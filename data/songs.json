@@ -2,31 +2,67 @@
     "songs":[
         {
             "id": 1,
-            "movieName": "The Avengers",
-            "description": "Pelicula de Marvel que trata de unos heroes",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/avengers.jpg"
+            "songName": "Rojo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "J.Balvin",
+            "imgSong": "img/rojo.jpg"
         },
         {
             "id": 2,
-            "movieName": "Jurassic Park",
-            "description": "There was a four-way bidding war for Michael Crichton's novel: Warner Bros. wanted it for Tim Burton, Fox liked it for Joe Dante, Columbia chased it for Richard Donner, but Universal won for Spielberg. See the box office totals, famous quotes and more.",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/jurassic_park.jpg"
+            "songName": "Tattoo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Rauw Alejandro",
+            "imgSong": "img/tattoo.jpg"
         },
         {
             "id": 3,
-            "movieName": "The Lord of the Rings",
-            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/lord_of_the_rings.jpg"
+            "songName": "Jovenes no tan locos",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Funzo y Baby Loud",
+            "imgSong": "img/jovenes-no-tan-locos.jpg"
         },
         {
             "id": 4,
-            "movieName": "Harry Potter",
-            "description": "Pelicula de Marvel que trata de unos heroes",
-            "imgStars": "img/star4.5.png",
-            "imgMovie": "img/harry_potter.jpg"
+            "songName": "Bruises",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Lewis Capaldi",
+            "imgSong": "img/bruises.png"
+        },
+        {
+            "id": 5,
+            "songName": "Shallow",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Lady Gaga y Bradley Cooper",
+            "imgSong": "img/shallow.jpg"
+        },
+        {
+            "id": 6,
+            "songName": "911",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Sech",
+            "imgSong": "img/911.jpg"
+        },
+        {
+            "id": 7,
+            "songName": "Tusa",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Karol G y Nicki Minaj",
+            "imgSong": "img/tusa.png"
+        },
+        {
+            "id": 8,
+            "songName": "Moon",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "Maria Becerra y Dani",
+            "imgSong": "img/moon.jpg"
+        },
+        {
+            "id": 9,
+            "songName": "Location",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
+            "artist": "J.Balvin y Karol G",
+            "imgSong": "img/location.jpg"
         }
+
     ]
 }

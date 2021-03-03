@@ -8,8 +8,37 @@ const content = document.querySelector('#content-remember')
 init();
 
 function init(){
-    showMovies();
+  showMovies();
+  cargarEventListeners();
 }
+
+function cargarEventListeners(){
+  btnMovies.addEventListener("click", () => {
+    content.innerHTML = '';
+    showMovies();
+  });
+  
+  btnSeries.addEventListener("click", () => {
+    content.innerHTML = '';
+    showSeries();
+  });
+
+  btnRestaurants.addEventListener("click", () => {
+    content.innerHTML = '';
+    showRestaurants();
+  });
+
+  btnSongs.addEventListener("click", () => {
+    content.innerHTML = '';
+    showSongs();
+  });
+
+  btnGames.addEventListener("click", () => {
+    content.innerHTML = '';
+    showVideogames();
+  });
+}
+
 
 function showMovies(){
     fetch("./data/movies.json")
@@ -21,20 +50,17 @@ function showMovies(){
         let movies = data.movies;
         for (let i = 0; i < movies.length; i++) {
           html.innerHTML +=`
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
           <div class="col">
             <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/${movies[i].imgMovie}" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="${movies[i].imgMovie}" width="100%" height="225">
   
               <div class="card-body">
               <h3>${movies[i].movieName} </h3>
                 <p class="card-text">${movies[i].description}</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">${movies[i].imgStars}</small>
+                <img src="${movies[i].pegi}" width="15%" height="75">
+                  <img src="${movies[i].imgStars}" width="20%" height="25">
                 </div>
               </div>
             </div>
@@ -45,4 +71,135 @@ function showMovies(){
     .catch(function(error) {
         console.log(error);
     });
+}
+
+function showRestaurants(){
+  fetch("./data/restaurants.json")
+  .then(function(res) {
+      return res.json();
+  })
+  .then(function(data){
+      let html = document.querySelector("#content-remember");
+      let restaurants = data.restaurants;
+      for (let i = 0; i < restaurants.length; i++) {
+        html.innerHTML +=`
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="${restaurants[i].imgRestaurant}" width="100%" height="225">
+
+            <div class="card-body">
+            <h3>${restaurants[i].restaurantName} </h3>
+              <p class="card-text">${restaurants[i].description}</p>
+              <div class="d-flex justify-content-between align-items-center">
+
+                <img src="${restaurants[i].imgStars}" width="20%" height="25">
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+      }
+  })
+  .catch(function(error) {
+      console.log(error);
+  });
+}
+
+function showSeries(){
+  fetch("./data/series.json")
+  .then(function(res) {
+      return res.json();
+  })
+  .then(function(data){
+      let html = document.querySelector("#content-remember");
+      let series = data.series;
+      for (let i = 0; i < series.length; i++) {
+        html.innerHTML +=`
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="${series[i].imgSerie}" width="100%" height="225">
+
+            <div class="card-body">
+            <h3>${series[i].serieName} </h3>
+              <p class="card-text">${series[i].description}</p>
+              <div class="d-flex justify-content-between align-items-center">
+              <img src="${series[i].pegi}" width="15%" height="75">
+                <img src="${series[i].imgStars}" width="20%" height="25">
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+      }
+  })
+  .catch(function(error) {
+      console.log(error);
+  });
+}
+
+function showSongs(){
+  fetch("./data/songs.json")
+  .then(function(res) {
+      return res.json();
+  })
+  .then(function(data){
+      let html = document.querySelector("#content-remember");
+      let songs = data.songs;
+      for (let i = 0; i < songs.length; i++) {
+        html.innerHTML +=`
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="${songs[i].imgSong}" width="100%" height="225">
+
+            <div class="card-body">
+            <h3>${songs[i].songName} </h3>
+              <p class="card-text">${songs[i].description}</p>
+              <div class="d-flex justify-content-between align-items-center">
+              <h4> ${songs[i].artist} </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+      }
+  })
+  .catch(function(error) {
+      console.log(error);
+  });
+}
+
+function showVideogames(){
+  fetch("./data/videogames.json")
+  .then(function(res) {
+      return res.json();
+  })
+  .then(function(data){
+      let html = document.querySelector("#content-remember");
+      let videogames = data.videogames;
+      for (let i = 0; i < videogames.length; i++) {
+        html.innerHTML +=`
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="${videogames[i].imgVideogame}" width="100%" height="225">
+
+            <div class="card-body">
+            <h3>${videogames[i].videogameName} </h3>
+              <p class="card-text">${videogames[i].description}</p>
+              <div class="d-flex justify-content-between align-items-center">
+              <img src="${videogames[i].pegi}" width="15%" height="75">
+              <img src="${videogames[i].imgStars}" width="20%" height="25">
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+      }
+  })
+  .catch(function(error) {
+      console.log(error);
+  });
 }
