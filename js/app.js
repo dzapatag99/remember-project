@@ -3,7 +3,7 @@ const btnSeries = document.querySelector('#series');
 const btnSongs = document.querySelector('#songs');
 const btnGames = document.querySelector('#games');
 const btnRestaurants = document.querySelector('#restaurants');
-const content = document.querySelector('#content-remember')
+const content = document.querySelector('#content-remember');
 
 init();
 
