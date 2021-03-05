@@ -4,12 +4,14 @@ const btnSongs = document.querySelector('#songs');
 const btnGames = document.querySelector('#games');
 const btnRestaurants = document.querySelector('#restaurants');
 const content = document.querySelector('#content-remember');
+const btnLogOut = document.querySelector("#btnLogOut");
 
 init();
 
 function init(){
   showMovies();
   cargarEventListeners();
+  showUser();
 }
 
 function cargarEventListeners(){
@@ -37,6 +39,13 @@ function cargarEventListeners(){
     content.innerHTML = '';
     showVideogames();
   });
+
+  btnLogOut.addEventListener("click", () =>{
+    localStorage.removeItem('name1'); 
+    localStorage.removeItem('pw'); 
+    location.reload();
+    window.location.href = "./sign-in.html";
+});
 }
 
 
@@ -50,7 +59,6 @@ function showMovies(){
         let movies = data.movies;
         for (let i = 0; i < movies.length; i++) {
           html.innerHTML +=`
-
           <div class="col">
             <div class="card shadow-sm">
             <img src="${movies[i].imgMovie}" width="100%" height="225">
@@ -203,3 +211,13 @@ function showVideogames(){
       console.log(error);
   });
 }
+
+function showUser(){
+  const contentOfUserName = document.querySelector("#ShowUserName");
+  const userStoraged = localStorage.getItem('name1');
+  contentOfUserName.innerHTML +=`
+  <i class="far fa-user">${userStoraged}</i>
+
+  `
+}
+

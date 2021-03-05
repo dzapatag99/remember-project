@@ -9,17 +9,13 @@ eventSignInListeners()
 function eventSignInListeners(){
     btnRegister.addEventListener("click", (e) =>{
         e.preventDefault()
+        alert(`You are registered like ${name1.value} and your password is ${pw.value}, now you can login`);
         store()
     });
     
     btnLogin.addEventListener("click", (e) =>{
         e.preventDefault()
         check()
-    });
-
-    btnLogOut.addEventListener("click", (e) =>{
-        e.preventDefault()
-        logOut()
     });
 }
 function store() {
@@ -50,6 +46,7 @@ function logOut(){
     location.reload();
     window.location.href = "./sign-in.html";
 }
+
  
 
 
