@@ -5,6 +5,7 @@
             "songName": "Rojo",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "J.Balvin",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/rojo.jpg"
         },
         {
@@ -12,6 +13,7 @@
             "songName": "Tattoo",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Rauw Alejandro",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/tattoo.jpg"
         },
         {
@@ -19,6 +21,7 @@
             "songName": "Jovenes no tan locos",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Funzo y Baby Loud",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/jovenes-no-tan-locos.jpg"
         },
         {
@@ -26,6 +29,7 @@
             "songName": "Bruises",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Lewis Capaldi",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/bruises.png"
         },
         {
@@ -33,6 +37,7 @@
             "songName": "Shallow",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Lady Gaga y Bradley Cooper",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/shallow.jpg"
         },
         {
@@ -40,6 +45,7 @@
             "songName": "911",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Sech",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/911.jpg"
         },
         {
@@ -47,6 +53,7 @@
             "songName": "Tusa",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Karol G y Nicki Minaj",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/tusa.png"
         },
         {
@@ -54,6 +61,7 @@
             "songName": "Moon",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "Maria Becerra y Dani",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/moon.jpg"
         },
         {
@@ -61,6 +69,7 @@
             "songName": "Location",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "artist": "J.Balvin y Karol G",
+            "imgStars": "img/star-4.5.png",
             "imgSong": "img/location.jpg"
         }
 

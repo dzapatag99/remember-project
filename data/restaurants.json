@@ -43,21 +43,21 @@
             "imgRestaurant": "img/ola-del-mar.jpg"
         },
         {
-            "id": 3,
+            "id": 7,
             "restaurantName": "Pesquero",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "imgStars": "img/star-4.5.png",
             "imgRestaurant": "img/pesquero.png"
         },
         {
-            "id": 3,
+            "id": 8,
             "restaurantName": "Pesquero",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "imgStars": "img/star-4.5.png",
             "imgRestaurant": "img/pesquero.png"
         },
         {
-            "id": 3,
+            "id": 9,
             "restaurantName": "Pesquero",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "imgStars": "img/star-4.5.png",

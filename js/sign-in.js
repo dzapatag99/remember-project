@@ -9,7 +9,13 @@ eventSignInListeners()
 function eventSignInListeners(){
     btnRegister.addEventListener("click", (e) =>{
         e.preventDefault()
-        alert(`You are registered like ${name1.value} and your password is ${pw.value}, now you can login`);
+          Swal.fire({
+    position: "center-center",
+    icon: "success",
+    title: `You are registered like: " ${name1.value} " and your password is: " ${pw.value} ", now you can login`,
+    showConfirmButton: false,
+    timer: 3500,
+  });
         store()
     });
     
@@ -36,7 +42,13 @@ function check() {
         window.location.href = "./index.html";
        
     }else {
-        alert('ERROR');
+        Swal.fire({
+            position: "center-center",
+            icon: "error",
+            title: `ERROR, INCORRECT USER OR PASSWORD`,
+            showConfirmButton: false,
+            timer: 3500,
+          });
     }
 }
 

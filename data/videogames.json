@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "movieName": "Viva Piñata",
+            "videogameName": "Viva Piñata",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",            
             "pegi": "img/pegi-3.png",
             "imgStars": "img/star-4.5.png",
@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "movieName": "Call of Duty Black Ops",
+            "videogameName": "Call of Duty Black Ops",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",   
             "pegi": "img/pegi-18.png",
             "imgStars": "img/star-4.5.png",
@@ -26,14 +26,14 @@
         },
         {
             "id": 4,
-            "movieName": "Animal Crossing",
+            "videogameName": "Animal Crossing",
             "pegi": "img/pegi-3.png",
             "imgStars": "img/star-4.5.png",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",      
             "imgVideogame": "img/animal-crossing.jpeg"
         },
         {
-            "id": 1,
+            "id": 5,
             "videogameName": "League of Legends",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "imgStars": "img/star-4.5.png",
@@ -41,7 +41,7 @@
             "imgVideogame": "img/league-of-legends.jpg"
         },
         {
-            "id": 1,
+            "id": 6,
             "videogameName": "League of Legends",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",
             "imgStars": "img/star-4.5.png",
@@ -49,24 +49,24 @@
             "imgVideogame": "img/league-of-legends.jpg"
         },
         {
-            "id": 2,
-            "movieName": "Viva Piñata",
+            "id": 7,
+            "videogameName": "Viva Piñata",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",  
             "pegi": "img/pegi-3.png",
             "imgStars": "img/star-4.5.png",
             "imgVideogame": "img/viva-piñata.jpg"
         },
         {
-            "id": 3,
-            "movieName": "Call of Duty Black Ops",
+            "id": 8,
+            "videogameName": "Call of Duty Black Ops",
             "imgStars": "img/star-4.5.png",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",     
             "pegi": "img/pegi-18.png",
             "imgVideogame": "img/black-ops.jpg"
         },
         {
-            "id": 4,
-            "movieName": "Animal Crossing",
+            "id": 9,
+            "videogameName": "Animal Crossing",
             "pegi": "img/pegi-3.png",
             "imgStars": "img/star-4.5.png",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum quas numquam hic fugit exercitationem. Dicta nihil vel eveniet? Architecto aut distinctio numquam ab error rerum totam quasi sint voluptatibus.            ",     

@@ -5,11 +5,14 @@ const btnGames = document.querySelector('#games');
 const btnRestaurants = document.querySelector('#restaurants');
 const content = document.querySelector('#content-remember');
 const btnLogOut = document.querySelector("#btnLogOut");
+const favContent = document.querySelector("#contentfav")
+let userFavorites = [];
+
 
 init();
 
+
 function init(){
-  showMovies();
   cargarEventListeners();
   showUser();
 }
@@ -18,7 +21,12 @@ function cargarEventListeners(){
   btnMovies.addEventListener("click", () => {
     content.innerHTML = '';
     showMovies();
+    
   });
+
+  content.addEventListener("click", agregarFav)
+
+
   
   btnSeries.addEventListener("click", () => {
     content.innerHTML = '';
@@ -40,17 +48,20 @@ function cargarEventListeners(){
     showVideogames();
   });
 
+
+
   btnLogOut.addEventListener("click", () =>{
     localStorage.removeItem('name1'); 
     localStorage.removeItem('pw'); 
     location.reload();
     window.location.href = "./sign-in.html";
 });
+
 }
 
 
 function showMovies(){
-    fetch("./data/movies.json")
+    fetch(`./data/movies.json`)
     .then(function(res) {
         return res.json();
     })
@@ -61,13 +72,14 @@ function showMovies(){
           html.innerHTML +=`
           <div class="col">
             <div class="card shadow-sm">
-            <img src="${movies[i].imgMovie}" width="100%" height="225">
+            <img src="${movies[i].imgMovie}" id="imgRef" width="100%" height="225">
   
-              <div class="card-body">
+              
               <h3>${movies[i].movieName} </h3>
                 <p class="card-text">${movies[i].description}</p>
                 <div class="d-flex justify-content-between align-items-center">
                 <img src="${movies[i].pegi}" width="15%" height="75">
+                <button type="button" class="btn btn-warning input addFavorite" data-id="1">Add to Favourite</button>
                   <img src="${movies[i].imgStars}" width="20%" height="25">
                 </div>
               </div>
@@ -80,6 +92,7 @@ function showMovies(){
         console.log(error);
     });
 }
+
 
 function showRestaurants(){
   fetch("./data/restaurants.json")
@@ -94,13 +107,13 @@ function showRestaurants(){
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="${restaurants[i].imgRestaurant}" width="100%" height="225">
+          <img src="${restaurants[i].imgRestaurant}" class="imgRef" width="100%" height="225">
 
             <div class="card-body">
             <h3>${restaurants[i].restaurantName} </h3>
               <p class="card-text">${restaurants[i].description}</p>
               <div class="d-flex justify-content-between align-items-center">
-
+              <button type="button" class="btn btn-warning input addFavorite" data-id="1">Add to Favourite</button>
                 <img src="${restaurants[i].imgStars}" width="20%" height="25">
               </div>
             </div>
@@ -127,13 +140,14 @@ function showSeries(){
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="${series[i].imgSerie}" width="100%" height="225">
+          <img src="${series[i].imgSerie}" class="imgRef" width="100%" height="225">
 
             <div class="card-body">
             <h3>${series[i].serieName} </h3>
               <p class="card-text">${series[i].description}</p>
               <div class="d-flex justify-content-between align-items-center">
               <img src="${series[i].pegi}" width="15%" height="75">
+              <button type="button" class="btn btn-warning input addFavorite" data-id="1">Add to Favourite</button>
                 <img src="${series[i].imgStars}" width="20%" height="25">
               </div>
             </div>
@@ -160,13 +174,16 @@ function showSongs(){
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="${songs[i].imgSong}" width="100%" height="225">
+          <img src="${songs[i].imgSong}" class="imgRef" width="100%" height="225">
 
             <div class="card-body">
             <h3>${songs[i].songName} </h3>
               <p class="card-text">${songs[i].description}</p>
               <div class="d-flex justify-content-between align-items-center">
-              <h4> ${songs[i].artist} </h4>
+              <h5>${songs[i].artist}</h5>
+              <img src="${songs[i].imgStars}" width="15%" height="25">
+              <button type="button" class="btn btn-warning input addFavorite" data-id="1">Add to Favourite</button>
+             
               </div>
             </div>
           </div>
@@ -192,13 +209,14 @@ function showVideogames(){
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="${videogames[i].imgVideogame}" width="100%" height="225">
+          <img src="${videogames[i].imgVideogame}" class="imgRef" width="100%" height="225">
 
             <div class="card-body">
             <h3>${videogames[i].videogameName} </h3>
               <p class="card-text">${videogames[i].description}</p>
               <div class="d-flex justify-content-between align-items-center">
               <img src="${videogames[i].pegi}" width="15%" height="75">
+              <button type="button" class="btn btn-warning input addFavorite" data-id="1">Add to Favourite</button>
               <img src="${videogames[i].imgStars}" width="20%" height="25">
               </div>
             </div>
@@ -220,4 +238,51 @@ function showUser(){
 
   `
 }
+
+function agregarFav(e) {
+
+  e.preventDefault();
+  let favorite; 
+
+
+  if (e.target.classList.contains("addFavorite")) {
+
+    favorite = e.target.parentElement.parentElement;
+
+  } else {
+    console.error("Error leyedo datos, no hay fav");
+    return false;
+  }
+
+  const infoFav = {
+    imagen: favorite.querySelector("img").src,
+    titulo: favorite.querySelector("h3").textContent,
+    id: favorite.querySelector("button").getAttribute("data-id"),
+  };
+
+    userFavorites.push(infoFav); 
+  
+
+  console.log(userFavorites);
+
+  mostrarAlert();
+
+  localStorage.setItem("favorites", JSON.stringify(userFavorites));
+}
+
+
+function mostrarAlert() {
+  Swal.fire({
+    position: "center-center",
+    icon: "success",
+    title: "Añadido a favoritos!!",
+    showConfirmButton: false,
+    timer: 1000,
+  });
+}
+
+//Funciones fuera del projecto: En el boton de arriba a la derecha se representa siempre el nombre del usuario, boton de log out que borra los datos al salir y redirige, boton de favoritos que lo añade al localStorage.
+//Este ha sido mi projecto, en mi opinión creo que cumple con la gran parte que se ha pedido pero he intentado muchas mas cosas que no estan aqui y no me han acabado saliendo
+//pero de las cuales he aprendido bastante, me hubiese gustado poner los favoritos de manera dinamica en HTML pero no he podido conseguirlo al igual que con buscador...
+//Espero que te guste Emilio ;)
 
